@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
      end 
    end 
   end 
-  puts nh 
   data.each do |att, attset| 
     attset.each do |cat, catset| 
       catset.each do |pig| 
@@ -16,7 +15,6 @@ def nyc_pigeon_organizer(data)
       end 
     end 
   end 
-  puts nh 
   data.each do |att, attset| 
     attset.each do |cat, catset| 
       catset.each do |pig| 
