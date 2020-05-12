@@ -23,6 +23,7 @@ def nyc_pigeon_organizer(data)
     end 
   end 
   puts nh 
+  return nh 
 end
 
 k = {
