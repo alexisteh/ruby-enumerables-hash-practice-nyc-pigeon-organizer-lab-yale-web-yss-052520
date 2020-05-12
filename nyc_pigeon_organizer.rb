@@ -10,3 +10,7 @@ def nyc_pigeon_organizer(data)
   end 
   puts nh 
 end
+
+
+
+#ruby nyc_pigeon_organizer.rb 
