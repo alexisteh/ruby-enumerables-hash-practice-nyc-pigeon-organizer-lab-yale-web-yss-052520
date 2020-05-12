@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
  data.each do |att, attset| 
    attset.each do |cat, catset| 
      catset.each do |pig| 
-
+        nh[pig] = { } 
      end 
    end 
   end 
