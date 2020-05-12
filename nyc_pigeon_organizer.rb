@@ -17,6 +17,14 @@ def nyc_pigeon_organizer(data)
     end 
   end 
   puts nh 
+  data.each do |att, attset| 
+    attset.each do |cat, catset| 
+      catset.each do |pig| 
+        nh[pig][att] << cat 
+      end 
+    end 
+  end 
+  puts nh 
 end
 
 k = {
