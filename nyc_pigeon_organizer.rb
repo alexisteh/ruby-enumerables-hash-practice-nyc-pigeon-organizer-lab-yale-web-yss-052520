@@ -4,7 +4,9 @@ def nyc_pigeon_organizer(data)
  data.each do |att, attset| 
    attset.each do |cat, catset| 
      catset.each do |pig| 
-       nh.push(pig => {})
+       if nh.any?(pig) 
+         if nh[pig].any?(att) 
+           if nh[pig][att].any? 
      end 
    end 
   end 
